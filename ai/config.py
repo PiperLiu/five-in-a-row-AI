@@ -1,0 +1,22 @@
+# 棋盘大小
+BOARD_WIDTH = 15
+BOARD_HEIGHT = 15
+N_IN_ROW = 5
+
+# MCTS 参数（自我对弈）
+TEMP = 1.0
+C_PUCT = 5
+N_PLAYOUT = 400
+
+# 训练更新参数
+LEARNING_RATE = 2e-3
+BUTTER_SIZE = 10000
+BATCH_SIZE = 512
+CHECK_FREQ = 2
+GAME_BATCH_NUM = 3000
+
+# 全局变量
+globalV = {
+    "MODEL_NAME": None,
+    "MODEL_PATH": None
+}
