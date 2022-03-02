@@ -3,7 +3,7 @@ import ChessPage from '../views/ChessView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
+    path: '/five-in-a-row-AI',
     name: 'home',
     component: ChessPage
   }
