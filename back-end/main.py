@@ -40,4 +40,4 @@ class AiChess(Resource):
 api.add_resource(AiChess, '/aichess')
 
 if __name__ == '__main__':
-    app.run(debug=CONFIG['debug'])
+    app.run(host='0.0.0.0', debug=CONFIG['debug'])
