@@ -4,7 +4,7 @@ import { liveGirlMessage, liveGirlMessageTime, setNewLiveGirlMessage } from '@/h
 
 onMounted(() => {
   (window as unknown as Record<'loadlive2d', (arg1: string, arg2: string) => void>)
-    .loadlive2d('live2d', '/live2d/model/tia/model.json')
+    .loadlive2d('live2d', 'live2d/model/tia/model.json')
 })
 
 const messageHidden = computed(() => {
