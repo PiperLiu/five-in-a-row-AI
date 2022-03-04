@@ -29,7 +29,7 @@ const click = async (rowIndex: number, colIndex: number) => {
   } else {
     putChess(rowIndex, colIndex)
     setNewLiveGirlMessage('让我想想ヾ(≧▽≦*)', 50000)
-    const move = await requestAi('aichess', rowIndex * board[0].length + colIndex)
+    const move = await requestAi('/', rowIndex * board[0].length + colIndex)
     const winner = getWinner(move)
     if (!winner) {
       const x = Math.floor(move / board[0].length)

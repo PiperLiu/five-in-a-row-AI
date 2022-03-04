@@ -37,7 +37,7 @@ const useChessRequest = (board: Board, aiPlayer: Player) => {
   const post = (url: string, data = {}) => {
     return new Promise((resolve, reject) => {
       axios.post(url, data, {
-        baseURL: 'https://121.196.239.127:5000/',
+        baseURL: 'http://aichess.piperliu.xyz',
         headers: {
           'Content-Type': 'application/json'
         }
