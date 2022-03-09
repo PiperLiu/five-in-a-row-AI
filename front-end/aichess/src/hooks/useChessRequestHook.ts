@@ -37,7 +37,7 @@ const useChessRequest = (board: Board, aiPlayer: Player) => {
   const post = (url: string, data = {}) => {
     return new Promise((resolve, reject) => {
       axios.post(url, data, {
-        baseURL: 'http://aichess.piperliu.xyz',
+        baseURL: 'https://aichess.piperliu.xyz',
         headers: {
           'Content-Type': 'application/json'
         }
@@ -56,6 +56,7 @@ const useChessRequest = (board: Board, aiPlayer: Player) => {
       return request.data
     } catch (e) {
       setNewLiveGirlMessage('(⊙x⊙;) 遇到了故障...', 5000)
+      console.log(e)
       throw Error('requestAi post error')
     } finally {
       unlock()
