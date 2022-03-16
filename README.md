@@ -7,7 +7,7 @@ Python 建议 3.6+ 版本， npm 建议 14.0+ 版本。棋盘大小、AI参数�
 
 <p style="text-align: center;"><a href="https://piperliu.github.io/five-in-a-row-AI/">✨GitHub Demo Page✨</p>
 
-gif
+![](./readme.gif)
 
 ## ⚙️How to use | 如何一键使用
 

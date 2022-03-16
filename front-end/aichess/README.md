@@ -1,5 +1,9 @@
 # aichess
 
+![](../f12.gif)
+
+自适应的棋盘大小，具体 trick 见源码。
+
 ## Project setup
 ```
 npm install
