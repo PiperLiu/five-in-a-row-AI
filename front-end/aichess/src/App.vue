@@ -1,6 +1,8 @@
 <template>
   <nav>
-    <router-link to="/">AI Chess</router-link>
+    <router-link to="/">AI Chess</router-link> |
+    <a href="https://github.com/PiperLiu/five-in-a-row-AI">Fork Me On GitHub</a> |
+    <a href="https://piperliu.xyz">About Me</a>
   </nav>
   <router-view/>
 </template>
